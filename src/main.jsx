@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+const navbar = (
+  <nav>
+      <h1>my website</h1>
+      <ul>
+          <li>pricing</li>
+          <li>about</li>
+          <li>contact</li>
+      </ul>
+  </nav>
 )
+
+ReactDOM.createRoot(document.getElementById('root')).render(navbar)
