@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom/client'
 
-const imgElement = (
-    <img src="testvite\src\assets\react-logo.png" width="40px"></img>
+const page = (
+  <div>
+    <img src="./testvite/react-logo.png" width="40px" alt="reactlogo2" />
+  </div>
 )
 
-ReactDOM.createRoot(document.getElementById('root')).render(imgElement)
+ReactDOM.createRoot(document.getElementById('root')).render(page)
