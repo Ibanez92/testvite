@@ -1,15 +1,7 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-const navbar = (
-  <nav>
-      <h1>my website</h1>
-      <ul>
-          <li>pricing</li>
-          <li>about</li>
-          <li>contact</li>
-      </ul>
-  </nav>
+const imgElement = (
+    <img src="testvite\src\assets\react-logo.png" width="40px"></img>
 )
 
-ReactDOM.createRoot(document.getElementById('root')).render(navbar)
+ReactDOM.createRoot(document.getElementById('root')).render(imgElement)
