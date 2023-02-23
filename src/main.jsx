@@ -18,8 +18,8 @@ function Header() {
 
 function Footer() {
     return (
-        <footer>
-            <small className='footer'>© 2023 Ibanez development. All rights reserved.</small>
+        <footer className='footer'>
+            <small>© 2023 Ibanez development. All rights reserved.</small>
         </footer>
     )
 }
@@ -27,7 +27,7 @@ function Footer() {
 function MainContent() {
     return (
         <div className='mainCon'>
-            <h1>Fun facts about React!!!</h1>
+            <h1>🔥Fun facts about React!!!🔥</h1>
             <ol className='mainCon-items'>
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walker</li>

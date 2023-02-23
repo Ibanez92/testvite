@@ -21,7 +21,6 @@
 /* CSS for mainContent component */
 
 .mainCon {
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -33,4 +32,7 @@
 
 .footer {
     margin-top: auto;
+    /* flex-grow: 1; */
+    background-color: rgb(71, 102, 130);
+    text-align: center;
 }
