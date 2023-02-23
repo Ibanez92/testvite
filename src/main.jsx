@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <nav className='nav'>
-                <img className='nav-logo' src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png" alt="reactlogo2"/>
+                <img className='nav-logo' src="testvite\react-logo.png" alt="reactlogo2sd"/>
                 <ul className='nav-items'>
                   <li>Pricing</li>
                   <li>About</li>
