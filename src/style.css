@@ -21,15 +21,16 @@
 /* CSS for mainContent component */
 
 .mainCon {
-    text-align: center;
+    /* text-align: center; */
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
 }
 
-.mainCon-items > li {
-    
-}
+
+/* CSS for footer component */
 
 .footer {
-    justify-content: center;
-    display: flex;
+    margin-top: auto;
 }
